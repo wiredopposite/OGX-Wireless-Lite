@@ -1,7 +1,7 @@
 # OGX-Wireless-Lite
 ![OGX-Wireless-Lite](images/esp32s3_devkit.jpg "OGX-Wireless-Lite")
 
-Firmware for the ESP32-S3 that leverages its built-in USB capabilities to emulate gamepads for several game consoles, enabling you to use your Bluetooth LE capable gamepads.
+Firmware for the ESP32-S3 that allows you to use your Bluetooth LE gamepads on several different game consoles.
 
 ### Supported platforms
 - Original Xbox
@@ -38,3 +38,6 @@ After a new mode is stored, the device will reset itself so you don't need to un
 
 ## Hardware
 You can use either the official ESP32-S3 DevKit C, DevKit M, or the USB C clone that's widely available.
+
+## Web app
+Currently you can store up to 8 mapping profiles on your device. Use this web app to change button mappings, deadzone values, and joystick inversion: https://wiredopposite.github.io/OGX-Wireless-WebApp/
