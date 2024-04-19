@@ -22,7 +22,7 @@ Gamepad * gamepad(int idx)
 {
     static Gamepad gamepad[MAX_GAMEPADS];
 
-    if ((idx < MAX_GAMEPADS) || (idx >= 0))
+    if ((idx < MAX_GAMEPADS) && (idx >= 0))
     {
         return &gamepad[idx];
     }
