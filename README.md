@@ -40,4 +40,4 @@ You can use either the official ESP32-S3 DevKit C, DevKit M, or the USB C clone 
 ## Web app
 Use this web app to change button mappings, deadzone values, and joystick inversion: https://wiredopposite.github.io/OGX-Wireless-WebApp/
 
-You can store up to 8 different profiles.
+You can store up to 8 different profiles. The device will require a reboot for new settings to take effect and the last profile saved will be the one that's active.
