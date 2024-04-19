@@ -3,3 +3,4 @@ _build
 .vscode
 .ignore
 sdkconfig.old
+release
