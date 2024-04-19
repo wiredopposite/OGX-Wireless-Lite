@@ -42,9 +42,9 @@ Use must use the USB port marked "USB" to plug it into your console. Either port
 You can flash it with this web app by Adafruit: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 
 These are the offsets for each .bin file
-0x1000: Bootloader
-0x8000: Partition-table
-0x10000: OGX-Wireless-Lite
+- 0x1000: Bootloader
+- 0x8000: Partition-table
+- 0x10000: OGX-Wireless-Lite
 
 ## Web app
 Use this web app to change button mappings, deadzone values, and joystick inversion: https://wiredopposite.github.io/OGX-Wireless-WebApp/
