@@ -51,6 +51,6 @@ These are the offsets for each .bin file
 ## Web app
 Use this web app to change button mappings, deadzone values, and joystick inversion: https://wiredopposite.github.io/OGX-Wireless-WebApp/
 
-<img src="images/webapp.png" width="800">
+<img src="images/webapp.png" width="600">
 
 You can store up to 8 different profiles. The device will require a reboot for new settings to take effect and the last profile saved will be the one that's active.
