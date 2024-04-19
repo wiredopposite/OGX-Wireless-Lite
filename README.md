@@ -39,7 +39,7 @@ After a new mode is stored, the device will reset itself so you don't need to un
 ## Hardware and flashing your firmware
 You can use either the official ESP32-S3 DevKit C, DevKit M, or the USB C clone that's widely available.
 
-Use must use the USB port marked "USB" to plug it into your console. Either port can be used to program the board, just plug it in while holding the "BOOT" button to flash you firmware.
+Use must use the USB port marked "USB" to plug it into your console. Either port can be used to program the board, just plug it in while holding the "BOOT" button to flash your firmware.
 
 You can flash it via USB with this web app by Adafruit: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 
