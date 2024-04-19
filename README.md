@@ -18,6 +18,8 @@ Firmware for the ESP32-S3 that allows you to use your Bluetooth LE gamepads on s
 - Stadia
 - Generic BLE HID gamepads should work as well
 
+Note: If you're having issues pairing your Xbox controller, make sure you update it to the latest firmware with the Xbox Accessories app in Windows. 
+
 ## Changing input mode
 By default the input mode is set to OG Xbox, you must hold a button combo for 3 seconds to change which platform you want to play on. Your chosen input mode will persist after powering off the device. 
 
