@@ -1,0 +1,6 @@
+[submodule "src/usbd"]
+	path = src/usbd
+	url = https://github.com/wiredopposite/usbd.git
+[submodule "components/btstack"]
+	path = components/btstack
+	url = https://github.com/bluekitchen/btstack.git
