@@ -39,7 +39,7 @@ You can use either the official ESP32-S3 DevKit C, DevKit M, or the USB C clone 
 
 Use must use the USB port marked "USB" to plug it into your console. Either port can be used to program the board, just plug it in while holding the "BOOT" button to flash you firmware.
 
-You can flash it with this web app by Adafruit: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
+You can flash it via USB with this web app by Adafruit: https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 
 These are the offsets for each .bin file
 - 0x1000: Bootloader
