@@ -1,0 +1,32 @@
+idf_component_register(SRCS "main.c" 
+                            "Gamepad.cpp"
+                            "bp32_task.cpp"
+                            "usbd_task.cpp"
+
+                            "utilities/scaling.cpp"
+
+                            "user_settings/input_mode.cpp"
+                            "user_settings/user_settings.cpp"
+                            "user_settings/nvs_helpers.cpp"
+
+                            "ble_server/ble_server.cpp"
+
+                            "usbd/usbdriver.cpp"
+                            "usbd/drivermanager.cpp"
+                            "usbd/drivers/shared/driverhelper.h"
+                            "usbd/drivers/shared/scaling.cpp"
+                            "usbd/drivers/dinput/DInputDriver.cpp"
+                            # "usbd/drivers/hid/HIDDriver.cpp"
+                            # "usbd/drivers/ps3/PS3Driver.cpp"
+                            "usbd/drivers/psclassic/PSClassicDriver.cpp"
+                            "usbd/drivers/switch/SwitchDriver.cpp"
+                            "usbd/drivers/usbserial/USBSerialDriver.cpp"
+                            "usbd/drivers/xinput/XInputDriver.cpp"
+                            "usbd/drivers/xboxog/XboxOriginalDriver.cpp"
+                            "usbd/drivers/xboxog/xid/xid.c"
+                            "usbd/drivers/xboxog/xid/xid_driver.c"
+                            "usbd/drivers/xboxog/xid/xid_gamepad.c"
+                            "usbd/drivers/xboxog/xid/xid_remote.c"
+                            "usbd/drivers/xboxog/xid/xid_steelbattalion.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES boards tinyusb_src bluepad32 btstack nvs_flash)
